@@ -8,14 +8,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-    <style>
+    <!-- <style>
         .manrope {
         font-family: "Manrope", sans-serif;
         font-optical-sizing: auto;
         font-weight: 500;
         font-style: normal;
         } 
-    </style>
+    </style> -->
     <!-- font awesome cdn -->
     <script src="https://kit.fontawesome.com/abaaf084d3.js" crossorigin="anonymous"></script>
     <!-- tailwind cdn -->
@@ -36,10 +36,10 @@
     <!-- main content-->
    <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
         <!-- header section -->
-        <header class="flex pt-10 mb-20">
+        <header class="lg:flex pt-10 mb-20">
             <!-- text content -->
             <div>
-                <h1 class="text-5xl md:text-7xl">It's good <br> tea time at The <br> Tea House</h1>
+                <h1 class="text-5xl md:text-7xl mb-7">It's good <br> tea time at The <br> Tea House</h1>
                 <p class="text-gray-500 w-3/4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
                 <br>
                 <button class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] px-5 py-3 text-white font-bold rounded-xl">Explore More  <i class="fa-solid fa-arrow-right text-xl -rotate-45 ite"></i></button>
@@ -61,6 +61,46 @@
               </div>
             </div>
         </header>
+        <!-- featured products section -->
+        <section class="py-8 lg:py-24">
+          <!-- title -->
+          <div class="text-center mb-8">
+            <h1 class="text-3xl md:text-4xl font-bold mb-7">Our Featured Products</h1>
+            <p class="text-gray-600 max-w-3xl mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+          </div>
+          <!-- grid cards -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 text-center">
+            <!-- product cards -->
+            <div class="rounded-lg shadow-md bg-gray-50 ">
+              <img class="mx-auto pt-4" src="./images/tea-1.png" alt="">
+              <div class="p-4">
+                <h2 class="font-bold text-xl">Milk Tea</h2>
+                <p class="text-gray-600 font-semibold">Creamer could be replaced by fresh milk</p>
+              </div>
+            </div>
+            <div class="rounded-lg shadow-md bg-gray-50 ">
+              <img class="mx-auto pt-4" src="./images/tea-2.png" alt="">
+              <div class="p-4">
+                <h2 class="font-bold text-xl">Black Tea</h2>
+                <p class="text-gray-600 font-semibold">Creamer could be replaced by fresh milk</p>
+              </div>
+            </div>
+            <div class="rounded-lg shadow-md bg-gray-50 ">
+              <img class="mx-auto pt-4" src="./images/tea-3.png" alt="">
+              <div class="p-4">
+                <h2 class="font-bold text-xl">Lemon Tea</h2>
+                <p class="text-gray-600 font-semibold">Creamer could be replaced by fresh milk</p>
+              </div>
+            </div>
+            <div class="rounded-lg shadow-md bg-gray-50 ">
+              <img class="mx-auto pt-4" src="./images/tea-4.png" alt="">
+              <div class="p-4">
+                <h2 class="font-bold text-xl">Green Tea</h2>
+                <p class="text-gray-600 font-semibold">Creamer could be replaced by fresh milk</p>
+              </div>
+            </div>
+          </div>
+        </section>
    </main>
 </body>
 </html>
